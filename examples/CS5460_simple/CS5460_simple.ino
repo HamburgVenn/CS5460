@@ -6,8 +6,13 @@
  * MISO 12 --- 6
  * SCLK 13 --- 5
  * SS   10 --- 7
+ * for mega2560
+ * MOSI 51 --- 23
+ * MISO 50 --- 6
+ * SCLK 52 --- 5
+ * SS   53 --- 7
  */
-CS5460 powerMeter(10);
+CS5460 powerMeter(10); //53 for mega
 
 void setup()
 {
